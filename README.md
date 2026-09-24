@@ -6,6 +6,7 @@ In AWS:
 - needs configuring to serve static web pages: https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html
 
 - Add the following secrets to the settings of GitHub (Settings --> Secrets --> Actions:
+  
     •	AWS_ACCESS_KEY_ID
   
     •	AWS_SECRET_ACCESS_KEY
