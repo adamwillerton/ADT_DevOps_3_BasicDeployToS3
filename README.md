@@ -17,4 +17,6 @@ In AWS:
   
     •	AWS_SESSION_TOKEN
 
+- Add the workflow file.
+
 
