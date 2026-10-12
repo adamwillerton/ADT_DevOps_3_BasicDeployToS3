@@ -3,11 +3,11 @@ Simple deployment of static website to existing S3 bucket.
 
 
 Checkout code
-↓
+-->
 Authenticate to AWS
-↓
+-->
 Copy website files to S3
-↓
+-->
 S3 serves the website
 
 
