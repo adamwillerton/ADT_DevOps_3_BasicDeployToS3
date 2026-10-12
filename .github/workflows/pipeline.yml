@@ -23,6 +23,8 @@ jobs:
 
       - name: Deploy to S3 (sync)
         run: |
+          echo "Deploying to bucket: ${{ secrets.S3_BUCKET_NAME }}"
+          
           # sync the website folder with s3, deleting any old files in the bucket that no longer appear in github.
           aws s3 sync website/ s3://${{ secrets.S3_BUCKET_NAME }} \
             --delete \
