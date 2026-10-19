@@ -2,7 +2,7 @@
 Simple deployment of static website to existing S3 bucket. 
 
 
-Checkout code
+Checkout code 
 -->
 Authenticate to AWS
 -->
